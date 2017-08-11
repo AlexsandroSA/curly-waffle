@@ -51,7 +51,7 @@ If port 8080 is already in use on your machine you must change the port number i
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/AlexsandroSA/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/AlexsandroSA/pwa-check-point/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
