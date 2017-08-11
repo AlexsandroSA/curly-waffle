@@ -1,15 +1,8 @@
-import Firebase from 'firebase'
-
-// Initialize Firebase
-const config = {
-  apiKey: '<API_KEY>',
-  authDomain: '<PROJECT_ID>.firebaseapp.com',
-  databaseURL: 'https://<DATABASE_NAME>.firebaseio.com',
-  storageBucket: '<BUCKET>.appspot.com',
-  messagingSenderId: '<SENDER_ID>'
+export const config = {
+  apiKey: 'AIzaSyDLWBGWadoyHqT2ac0NQD9DchmyQwyx0Q4',
+  authDomain: 'check-point-9c07a.firebaseapp.com',
+  databaseURL: 'https://check-point-9c07a.firebaseio.com',
+  projectId: 'check-point-9c07a',
+  storageBucket: 'check-point-9c07a.appspot.com',
+  messagingSenderId: '657116448929'
 }
-
-// Initialize the app
-const firebaseApp = Firebase.initializeApp(config)
-
-export const db = firebaseApp.database()
