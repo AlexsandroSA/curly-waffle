@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import Vuex from 'vuex'
+import Vuetify from 'vuetify'
 import VueFire from 'vuefire'
 import VueRouter from 'vue-router'
 import firebase from 'firebase'
@@ -11,9 +12,10 @@ import { config } from './firebase'
 
 Vue.config.productionTip = false
 
-Vue.use(VueRouter)
-Vue.use(VueFire)
 Vue.use(Vuex)
+Vue.use(Vuetify)
+Vue.use(VueFire)
+Vue.use(VueRouter)
 
 /* eslint-disable no-new */
 new Vue({

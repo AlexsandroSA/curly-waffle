@@ -1,6 +1,5 @@
 <template lang="html">
-  <div class="">
-    <h1>Login</h1>
+  <div>
     <div id="firebaseui-auth-container"></div>
   </div>
 </template>
@@ -10,7 +9,7 @@ import firebase from 'firebase'
 import firebaseui from 'firebaseui'
 
 export default {
-  name: 'auth',
+  name: 'login',
   mounted () {
     const uiConfig = {
       signInSuccessUrl: '/success',
